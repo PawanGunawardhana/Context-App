@@ -13,3 +13,11 @@ CC/cc(class component) react snippet eka ghla class component eka hduwa.but eka 
 gives us a way to share state up and down a component tree quite easily.
 we can do this without a context api by using props but eka patta wadayakne ape component trees and application godak large unama..
 anna ekai api context API use krnne. this is going to do that by giving us a central place to store data or state and share it between components without having to use props.
+
+
+3.folder ekak hadnwa contexts kiyl src eka athule ethakota api hadana hma context ekkm eke store krnna puluwan.
+ThemeContext.js haduwa mokda theme eka kiynne mulu App ekema hama folder ekema same pawatinn one deyakne.ekai api theme ekata contextAPI use krnne.globally state huwamaru krgnn epai.
+
+import kragnnawa React, { createContext} , {component} from 'react';
+nattan apita context create krgnna ba.createContext function eken tamai context eka create krnne.
+api itpasse 
