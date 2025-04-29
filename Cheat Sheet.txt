@@ -5,3 +5,5 @@ clean& easy way to share state between components without having to pass props d
 Tap into the inner workings of react in functional components .We can do bunch of stuff inside functional components that we can normally only do inside class components.
 
 When we use them together context and hooks they gonna allow us to work with shared data inside our application similar to how redux behaves.
+
+CC/cc(class component) react snippet eka ghla class component eka hduwa.but eka old version ekak function create krna, dan hodai sfc(stateless functional component).
