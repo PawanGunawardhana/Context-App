@@ -7,3 +7,9 @@ Tap into the inner workings of react in functional components .We can do bunch o
 When we use them together context and hooks they gonna allow us to work with shared data inside our application similar to how redux behaves.
 
 CC/cc(class component) react snippet eka ghla class component eka hduwa.but eka old version ekak function create krna, dan hodai sfc(stateless functional component).
+
+
+2.Context API 
+gives us a way to share state up and down a component tree quite easily.
+we can do this without a context api by using props but eka patta wadayakne ape component trees and application godak large unama..
+anna ekai api context API use krnne. this is going to do that by giving us a central place to store data or state and share it between components without having to use props.
