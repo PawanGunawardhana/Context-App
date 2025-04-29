@@ -1,9 +1,12 @@
+import React from "react";
+import Navbar from "./components/Navbar";
+import BookList from "./components/BookList";
 
-import React from 'react';
 function App() {
-  return (
-    <p>hi</p>
-  );
+  return (<div className="App">
+    <Navbar />
+    <BookList />
+  </div>);
 }
 
 export default App;
