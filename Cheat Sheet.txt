@@ -21,3 +21,10 @@ ThemeContext.js haduwa mokda theme eka kiynne mulu App ekema hama folder ekema s
 import kragnnawa React, { createContext} , {component} from 'react';
 nattan apita context create krgnna ba.createContext function eken tamai context eka create krnne.
 api itpasse 
+
+
+4.lession 4 eke tiyenne user create krpu context components wla idan access krna widiya.
+mulinma class component ekak nm "static contextType = ThemeContext;" kiyla type krnaw.ThemeContext kiynne,
+user create karla export krpu context eka.
+ita passe apita puluwan "const { isLightTheme, dark, light } = this.context" kiyla desctructure krla e ek ek component eka athule,
+adala share wenna ona data tika use krnna.. 
