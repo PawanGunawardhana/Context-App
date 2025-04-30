@@ -45,3 +45,8 @@ kalin krpu static contextType = ThemeContext; eka danne na..
 }}</ThemeContext.Consumer>
 
 me method eken puluwan multiple context access krnna same component ekata.habi 1st method eken ba.
+
+
+6.Updating context data. meke kale button ekk haduwa theme eka toggle krnna. ethkota button eka ThemeToggle wenama component ekakta dmma. ee btn eka click krma onClick ekak damma,
+function ekak call wena wdiyata,e func eken krnne ThemeContextProvider eke tiyena state walin isLightTheme state eka true,false widiyta change krn eka. me btn click krla themeToggle func eken 
+state change krna eka root proj ekatma effect wenna ona nisa eka damma ThemeContextProvider eka assata.

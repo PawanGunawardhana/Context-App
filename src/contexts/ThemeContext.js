@@ -10,9 +10,15 @@ class ThemeContextProvider extends Component {
         light: { syntax: '#555', ui: '#ddd', bg: '#eee' },
         dark: { syntax: '#ddd', ui: '#333', bg: '#555'}
      } //state kiyana eke tamai apita globally share krnna one data tika include krnne.
+    
+    toggleTheme = () => {
+        this.setState({isLightTheme: !this.state.isLightTheme})
+    
+    }
+    
     render() { 
         return (// ...this.state eke ... danne athule data spread krnna
-            <ThemeContext.Provider value={{ ...this.state }}> 
+            <ThemeContext.Provider value={{ ...this.state, toggleTheme: this.toggleTheme } }> 
                 {this.props.children}
             </ThemeContext.Provider>
         );
