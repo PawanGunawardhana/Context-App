@@ -98,4 +98,4 @@ const {isLightTheme, light, dark} = useContext(ThemeContext);
 const {toggleAuth} = useContext(AuthContext);
 
 
-15.
+15.  Creating Context with Functional Components. used createContext function and useContext and useState hooks
