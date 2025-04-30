@@ -28,3 +28,20 @@ mulinma class component ekak nm "static contextType = ThemeContext;" kiyla type 
 user create karla export krpu context eka.
 ita passe apita puluwan "const { isLightTheme, dark, light } = this.context" kiyla desctructure krla e ek ek component eka athule,
 adala share wenna ona data tika use krnna.. 
+
+
+5. lession 5 tiyenne context eka pita idan access krna different method ekak. eka class component wlata krnna ba.eka hodai functional components wlata.
+mekedi wenne kalin context eka provide krna provider kenek hitiya wage dan e context eka consume krna consumer kenek innwa kiyna method eka.
+kalin krpu static contextType = ThemeContext; eka danne na..
+
+<ThemeContext.Consumer>{(context) => {
+    const {isLightTheme, light, dark} = context; //kalin api methana damme this.context ne.dan context pamani danne.
+    const theme = isLightTheme?light:dark // anith ewa e wdiyami.
+
+    return (
+        meke athule thamai ape jsx code eka return krnne.
+    )
+
+}}</ThemeContext.Consumer>
+
+me method eken puluwan multiple context access krnna same component ekata.habi 1st method eken ba.
