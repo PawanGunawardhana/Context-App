@@ -50,3 +50,7 @@ me method eken puluwan multiple context access krnna same component ekata.habi 1
 6.Updating context data. meke kale button ekk haduwa theme eka toggle krnna. ethkota button eka ThemeToggle wenama component ekakta dmma. ee btn eka click krma onClick ekak damma,
 function ekak call wena wdiyata,e func eken krnne ThemeContextProvider eke tiyena state walin isLightTheme state eka true,false widiyta change krn eka. me btn click krla themeToggle func eken 
 state change krna eka root proj ekatma effect wenna ona nisa eka damma ThemeContextProvider eka assata.
+
+
+7.meke tiyenne multiple context create krla use krna hati.ThemeContext eka haduwa wagema AuthContext ekak hdnwa. log wena user kenekta mulu whole project ekama e username eken epai use krnna puluwan wenna.
+eka nisa ekath context widiyata thamai api user krnne.prop use krnne nathuwa. mekanm ThemeContext haduwa wagema thamai itin.wenasakata tiyenne multiple context access krna eka.
