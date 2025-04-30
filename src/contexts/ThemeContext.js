@@ -11,8 +11,8 @@ class ThemeContextProvider extends Component {
         dark: { syntax: '#ddd', ui: '#333', bg: '#555'}
      } //state kiyana eke tamai apita globally share krnna one data tika include krnne.
     render() { 
-        return (
-            <ThemeContext.Provider value={{ ...this.state }}>
+        return (// ...this.state eke ... danne athule data spread krnna
+            <ThemeContext.Provider value={{ ...this.state }}> 
                 {this.props.children}
             </ThemeContext.Provider>
         );
