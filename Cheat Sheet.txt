@@ -58,3 +58,44 @@ eka nisa ekath context widiyata thamai api user krnne.prop use krnne nathuwa. me
 
 8.multiple context consume karnna first method eka use krnna ba.mokd static contextType = Themecontext; and static contextType = AuthContext kiyl 2k tiyaganna ba.error enwa.ai 'contextType' 2k tiyenwane.
 eka nisa api mekata use krnne AuthContext.Consumer kiyna eka.etkota hri.ekak static tiyala anit eka .Consumer walin access krnna puluwan.habai static 2k baaaa.ekai theorya.
+
+
+
+9./****************React Hooks*********/
+special functions.
+allows us to do additional things inside functional components.
+ e.g. useState
+
+ useState()- use state within a functional component
+
+ useEffect() - run code when a component renders (or re renders)
+
+ useContext() - consume context in a functional component.
+
+
+ 10.useState() -- eka itin values 2k return krnwa.ekak value ekak anika function eka.eken puluwan actual value eka change krnna.
+ import { v4 as uuidv4 } from 'uuid';
+kiyla package ekk tiyenwa auto id generate krna.
+... danne spread krnwa kiyana meaning ekata.e qwe array ekaknm eka ... dala spread krla gnna puluwan.
+we can use useState hook to use some state inside our functional  component.because previously it couldnt do in the past.
+we'd always have to use a class component to use state.
+
+
+11.useState() -- form ekakta use krna hati tiyenne.ekath itin loku awlk na. <input/> ekath button ekak widyta use krnna puluwan,type eka "submit" kiyl dala.type="submit" value='this is a button'.
+props use kara eka component ekakin anikata values pass krnna.title eka ehema.aluth song ekak add krddi ehema addSong use kra prop ekak widiyata.
+
+
+12.useEffect() hook. we can think this hook as a lifecycle method that we'd normally use inside class components in react.
+useEffect eka initial render ekedi saha hama change ekakadima re render wenawa api explicitly limit damme nathi unoth. same component eka athule multiple times use krnna puluwan.
+
+
+13.useContext() hook. mekenkrnne itin ara context access krna 3 weni method eka. mokda apita class component wala multiple context access krnna amarui. .Consumer use karama poddak confuse wenna puluwan context godak tiyena kota.
+eka nisa pahasuma method eka tamai useContext hook eka functional components athule use krna eka.
+
+
+14.useContext() hooks apita onatharam use krnna puluwan same component eka athule.eka nisa multiple context access krnna patta lesi.
+const {isLightTheme, light, dark} = useContext(ThemeContext);
+const {toggleAuth} = useContext(AuthContext);
+
+
+15.
