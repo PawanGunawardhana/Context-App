@@ -54,3 +54,7 @@ state change krna eka root proj ekatma effect wenna ona nisa eka damma ThemeCont
 
 7.meke tiyenne multiple context create krla use krna hati.ThemeContext eka haduwa wagema AuthContext ekak hdnwa. log wena user kenekta mulu whole project ekama e username eken epai use krnna puluwan wenna.
 eka nisa ekath context widiyata thamai api user krnne.prop use krnne nathuwa. mekanm ThemeContext haduwa wagema thamai itin.wenasakata tiyenne multiple context access krna eka.
+
+
+8.multiple context consume karnna first method eka use krnna ba.mokd static contextType = Themecontext; and static contextType = AuthContext kiyl 2k tiyaganna ba.error enwa.ai 'contextType' 2k tiyenwane.
+eka nisa api mekata use krnne AuthContext.Consumer kiyna eka.etkota hri.ekak static tiyala anit eka .Consumer walin access krnna puluwan.habai static 2k baaaa.ekai theorya.
